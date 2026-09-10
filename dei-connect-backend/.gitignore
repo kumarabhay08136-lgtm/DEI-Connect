@@ -1,0 +1,10 @@
+node_modules/
+.env
+npm-debug.log
+uploads/**/*
+!uploads/**/.gitkeep
+.DS_Store
+
+# All user data lives in MongoDB only — this app must never write a
+# per-user JSON dump to disk again.
+user_data/
